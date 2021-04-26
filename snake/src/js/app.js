@@ -105,7 +105,7 @@ window.onload = () => {
     });
 
     normalBtn.addEventListener("click", () => {
-        settingBox.classList.remove("flex");
+        startBox.classList.remove("flex");
         new App(mapSize, speed, tail);
     });
 
