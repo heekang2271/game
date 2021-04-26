@@ -16,20 +16,20 @@ export class Snake {
         this.snakeColor = "#000000";
         this.snakeLength = snakeLength;
 
-        // 0 : 매우느림 : 0.5초
-        // 1 : 느림 : 0.3초
-        // 2 : 보통 : 0.1초
-        // 3 : 빠름 : 0.08초
+        // 0 : 매우느림 : 0.4초
+        // 1 : 느림 : 0.2초
+        // 2 : 보통 : 0.09초
+        // 3 : 빠름 : 0.07초
         // 4 : 매우빠름 : 0.05초
 
         if (speed === 0) {
-            this.speed = 0.5;
+            this.speed = 0.4;
         } else if (speed === 1) {
-            this.speed = 0.3;
+            this.speed = 0.2;
         } else if (speed === 2) {
-            this.speed = 0.1;
+            this.speed = 0.09;
         } else if (speed === 3) {
-            this.speed = 0.08;
+            this.speed = 0.07;
         } else if (speed === 4) {
             this.speed = 0.05;
         }
