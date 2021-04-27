@@ -145,7 +145,7 @@ export class Snake {
 
             const dist = Math.sqrt(dx ** 2 + dy ** 2);
 
-            if (dist >= 10) {
+            if (dist >= this.boxCount / 2) {
                 let pass = true;
                 for (let i = 0; i < this.snake.length; i++) {
                     if (this.snake[i].x === x && this.snake[i].y === y) {
