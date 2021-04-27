@@ -121,12 +121,12 @@ export class Snake {
                     this.food.x === this.snake[0].x &&
                     this.food.y === this.snake[0].y
                 ) {
-                    this.makeFood();
                     this.snake.push({
                         x: prev.x,
                         y: prev.y,
                     });
                     this.snakeLength += 1;
+                    this.makeFood();
                 }
             }
         }, this.speed * 1000);
