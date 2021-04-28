@@ -88,7 +88,7 @@ export class Dodge {
     }
 
     draw(ctx, time) {
-        const fixed2Time = (time / 1000).toFixed(2);
+        const fixed2Time = ((time - 1000) / 1000).toFixed(2);
         const floorTime = Math.floor(fixed2Time);
 
         this.user.draw(ctx);

@@ -34,7 +34,7 @@ class App {
                 requestAnimationFrame(this.animate.bind(this));
                 clearInterval(interval);
             }
-        }, 700);
+        }, 1000);
     }
 
     setSize(canvas, ctx) {
