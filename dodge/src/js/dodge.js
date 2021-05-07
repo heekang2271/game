@@ -10,12 +10,12 @@ export class Dodge {
         this.userY = height / 2;
         this.userSize = 4;
         this.userColor = "#FFFF5E";
-        this.userSpeed = 1.2;
+        this.userSpeed = 1.7;
 
         this.bulletSize = 2;
         this.bulletColor = "#FF8D26";
         this.newBulletColor = "#0831fd";
-        this.bulletSpeed = 0.12;
+        this.bulletSpeed = 0.2;
 
         this.numOfInitBullet = 50;
         this.newBulletTimeGap = 5;
